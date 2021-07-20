@@ -18,8 +18,9 @@
 
 <p align="center">
   
+<img src="https://i.imgur.com/u1viOV1.mp4" width="600px">
+  
 
-![SoulsKut.gif](src/assets/background/gifsoulskut.gif)
 
 
 </p>
