@@ -1,11 +1,14 @@
 <p align="center">
 <img src="https://i.imgur.com/1SbDXF7.png" width="300px">
   
-  
-
-
-
 <br>
+  
+<p align="center">
+  <a href="#user-content-o-que-é-o-soulskut">Sobre</a> •
+ <a href="#user-content-funcionalidades">Funcionalidades</a> • 
+ <a href="#user-content-build-e-run">Como executar</a>
+</p>
+
 
 ![Capa do Projeto](https://i.imgur.com/QoPiqRr.png)
 
@@ -15,11 +18,7 @@
 <br>
 
 
-<p align="center">
- <a href="#user-content-o-que-é-o-soulskut">Sobre</a> •
- <a href="#user-content-funcionalidades">Funcionalidades</a> • 
- <a href="#user-content-build-e-run">Como executar</a>
-</p>
+
 
 
 ## O que é o SoulsKut?
