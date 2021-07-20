@@ -40,7 +40,6 @@ export default function LoginScreen() {
                             router.push('/');
                             
                         })
-                        /* router.push('/'); */
 
                     }} 
                     className="box">
@@ -57,8 +56,6 @@ export default function LoginScreen() {
                         {githubUser.length === 0 
                             ? 'Preencha o campo'
                             : ''
-
-                    
                         }
                         <button type="submit">
                             Login
@@ -79,7 +76,7 @@ export default function LoginScreen() {
 
                 <footer className="footerArea">
                     <p>
-                        © 2021 alura.com.br - <a href="/">Sobre o SoulsKut.br</a> - <a href="/">Centro de segurança</a> - <a href="/">Privacidade</a> - <a href="/">Termos</a> - <a href="/">Contato</a>
+                        © 2021 Vitor Teixeira - <a href="/">Sobre o SoulsKut.br</a> - <a href="/">Centro de segurança</a> - <a href="/">Privacidade</a> - <a href="/">Termos</a> - <a href="/">Contato</a>
                     </p>
                 </footer>
             </div>

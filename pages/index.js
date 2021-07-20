@@ -58,82 +58,42 @@ export default function Home(props) {
 
     const githubUser = props.githubUser;
     const [comunidades, setComunidades] = React.useState([]);
-
-
-
-    // 0 - Pegar o array de dados do github
-
     const [seguidores, setSeguidores] = React.useState([]);
     const [seguindo, setSeguindo] = React.useState([]);
 
-    const people = [
-        {
-            id: 1,
-            title: 'DevonCrawford',
-            imageUrl: 'http://github.com/DevonCrawford.png'
-        },
-        {
-            id: 2,
-            title: 'johnvictorfs',
-            imageUrl: 'http://github.com/johnvictorfs.png'
-        },
-        {
-            id: 3,
-            title: 'torvalds',
-            imageUrl: 'http://github.com/torvalds.png'
-        },
-        {
-            id: 4,
-            title: 'GuilhermeBartasson',
-            imageUrl: 'http://github.com/GuilhermeBartasson.png'
-        },
-        {
-            id: 5,
-            title: 'tornellihenrique',
-            imageUrl: 'http://github.com/tornellihenrique.png'
-        },
-        {
-            id: 6,
-            title: 'egoist',
-            imageUrl: 'http://github.com/egoist.png'
-        },
-
-    ]
-
-    // 0 - Pegar o array de dados do github 
     React.useEffect(() => {
 
         // GET seguidores
         fetch(`https://api.github.com/users/${githubUser}/followers`)
-            .then(function (response) {
-                if (response.ok) {
-                    return response.json()
-                }
-                throw new Error('Problema ao fazer requisição na api do GitHub' + response.status);
+        .then(function (response) {
+            if (response.ok) {
+                return response.json()
+            }
+            throw new Error('Problema ao fazer requisição na api do GitHub' + response.status);
 
-            })
-            .then(function (responseJson) {
-                setSeguidores(responseJson);
-            })
-            .catch(function (error) {
-                console.error(error)
-            })
+        })
+        .then(function (responseJson) {
+            setSeguidores(responseJson);
+        })
+        .catch(function (error) {
+            console.error(error)
+        })
 
         // GET seguindo
         fetch(`https://api.github.com/users/${githubUser}/following`)
-            .then(function (response) {
-                if (response.ok) {
-                    return response.json()
-                }
-                throw new Error('Problema ao fazer requisição na api do GitHub' + response.status);
+        .then(function (response) {
+            if (response.ok) {
+                return response.json()
+            }
+            throw new Error('Problema ao fazer requisição na api do GitHub' + response.status);
 
-            })
-            .then(function (responseJson) {
-                setSeguindo(responseJson);
-            })
-            .catch(function (error) {
-                console.error(error)
-            })
+        })
+        .then(function (responseJson) {
+            setSeguindo(responseJson);
+        })
+        .catch(function (error) {
+            console.error(error)
+        })
 
         // API GraphQL
         fetch('https://graphql.datocms.com/', {
@@ -145,20 +105,20 @@ export default function Home(props) {
             },
             body: JSON.stringify({
                 "query": `query {
-            allCommunities {
-            id 
-            title
-            imageUrl
-            creatorSlug
+                allCommunities {
+                id 
+                title
+                imageUrl
+                creatorSlug
             }
-        }` })
+        }`})
         })
-            .then((response) => response.json()) // Pega o retorno do response.json() e já retorna
-            .then((completeResponse) => {
-                const comunidadesVindasDoDato = completeResponse.data.allCommunities;
-                console.log(comunidadesVindasDoDato)
-                setComunidades(comunidadesVindasDoDato)
-            })
+        .then((response) => response.json()) // Pega o retorno do response.json() e já retorna
+        .then((completeResponse) => {
+            const comunidadesVindasDoDato = completeResponse.data.allCommunities;
+            console.log(comunidadesVindasDoDato)
+            setComunidades(comunidadesVindasDoDato)
+        })
 
     }, [])
 
@@ -183,7 +143,6 @@ export default function Home(props) {
         <>
             <AlurakutMenu githubUser={githubUser} />
             <MainGrid>
-                {/* <Box style="grid-area: profileArea;"> */}
                 <div className="profileArea" style={{ gridArea: 'profileArea' }}>
                     <ProfileSidebar githubUser={githubUser} />
                 </div>
@@ -239,11 +198,6 @@ export default function Home(props) {
                                     aria-label="Coloque uma URL para usarmos de capa"
                                     type="text"
                                 />
-                                {/* <input placeholder="Coloque uma URL para usarmos de capa" 
-                                type="file" 
-                                name="image" 
-                                accept="image/*" 
-                                aria-label="Coloque uma URL para usarmos de capa"></input> */}
                             </div>
                             <button>
                                 Criar comunidade
@@ -253,8 +207,6 @@ export default function Home(props) {
                     </Box>
                 </div>
                 <div className="profileRelationsArea" style={{ gridArea: 'profileRelationsArea' }}>
-
-                    {/* <ProfileRelationsBox title='Comunidades' items={comunidades} />   */}
                     <ProfileRelationsBoxWrapper>
                         <h2 className="smallTitle">
                             Comunidades ({comunidades.length})
@@ -263,8 +215,6 @@ export default function Home(props) {
                             {comunidades.slice(-6).map((itemAtual) => {
                                 return (
                                     <li key={itemAtual.id}>
-
-                                        {/* <a href={`/communities/${itemAtual.id}`}> */}
                                         <a href={`https://www.google.com/search?q=${itemAtual.title.split(' ').join('+')}`}>
                                             <img src={itemAtual.imageUrl} />
                                             <span>{itemAtual.title}</span>
@@ -276,13 +226,7 @@ export default function Home(props) {
                     </ProfileRelationsBoxWrapper>
 
                     <ProfileRelationsBox title='Seguindo' items={sigo} />
-                    <ProfileRelationsBox title="Seguidores" items={amigos} />
-
-
-
-
-
-
+                    <ProfileRelationsBox title='Seguidores' items={amigos} />
                 </div>
             </MainGrid>
         </>
