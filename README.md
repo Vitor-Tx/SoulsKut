@@ -18,7 +18,7 @@
 
 <p align="center">
   
-<img src="https://i.imgur.com/u1viOV1.mp4" width="600px">
+<img src="/src/assets/background/gifsoulskut.gif" style="max-width: 100%">
   
 
 
