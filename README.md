@@ -16,9 +16,9 @@
 
 
 <p align="center">
- <a href="#O-que-é-o-SoulsKut?">Sobre</a> •
- <a href="#-Funcionalidades">Funcionalidades</a> • 
- <a href="#-Build-e-run">Como executar</a> • 
+ <a href="#-o-que-é-o-soulskut?">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> • 
+ <a href="#-build-e-run">Como executar</a>
 </p>
 
 
