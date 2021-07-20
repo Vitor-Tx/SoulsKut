@@ -17,7 +17,7 @@
 
 <p align="center">
  <a href="#user-content-o-que-é-o-soulskut">Sobre</a> •
- <a href="#user-content-funcionalidades user-content-build-e-run">Funcionalidades</a> • 
+ <a href="#user-content-funcionalidades">Funcionalidades</a> • 
  <a href="#user-content-build-e-run">Como executar</a>
 </p>
 
