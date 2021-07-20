@@ -8,7 +8,7 @@
 <img src="https://i.imgur.com/1SbDXF7.png">
 </p>
 
-O SoulsKut foi um projeto desenvolvido durante a Imersão React da Alura. O projeto original se chamava "Alurakut", uma espécie de paródia do antigo orkut. Decidi então fazer minha própria versão, relacionada a uma das minhas séries de jogos favoritas, que é a série Souls. O design não é meu forte, fiz uma logo utilizando uma fonte relativamente parecida com a fonte da logo de Dark Souls, além da paleta de cores, que também foi inspirada no jogo. O projeto foi feito utilizando React e Next.js.
+O SoulsKut foi um projeto desenvolvido durante a Imersão React da Alura. O projeto original se chamava "Alurakut", uma espécie de paródia do antigo orkut. Decidi então fazer minha própria versão, relacionada a uma das minhas séries de jogos favoritas, que é a série Souls. O design não é meu forte, então fiz uma logo utilizando uma fonte relativamente parecida com a fonte da logo de Dark Souls, além da paleta de cores, que também foi inspirada no jogo. O projeto foi feito utilizando React e Next.js.
 
 Quer ver o site no ar? [Clique aqui!](https://soulskut.vercel.app)
 
