@@ -12,6 +12,15 @@
 
 </p>
 
+<br>
+
+
+<p align="center">
+ <a href="#O-que-é-o-SoulsKut?">Sobre</a> •
+ <a href="#-Funcionalidades">Funcionalidades</a> • 
+ <a href="#-Build-e-run">Como executar</a> • 
+</p>
+
 
 ## O que é o SoulsKut?
 
@@ -42,7 +51,7 @@ Quer ver o site no ar? [Clique aqui!](https://soulskut.vercel.app)
 ---
 
 
-#### Build e run
+## Build e run
 ```bash
 
 # Clone o rep
