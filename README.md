@@ -1,10 +1,15 @@
 <p align="center">
 <img src="https://i.imgur.com/1SbDXF7.png" width="200px">
-</p>
+
 
 ![Login](https://i.imgur.com/w0Om3FF.png)
 
 ![Capa do Projeto](https://i.imgur.com/QoPiqRr.png)
+
+
+</p>
+
+
 
 
 ## O que é o SoulsKut?
