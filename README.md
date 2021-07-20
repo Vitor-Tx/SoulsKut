@@ -12,17 +12,6 @@
 
 </p>
 
-<p align="center">
-  
-<img src="/src/assets/background/gifsoulskut.gif" style="max-width: 150%">
-  
-
-
-
-</p>
-
-
-
 
 ## O que é o SoulsKut?
 
@@ -38,6 +27,13 @@ Quer ver o site no ar? [Clique aqui!](https://soulskut.vercel.app)
 ---
 
 ## Funcionalidades
+
+
+<p align="center">
+  
+<img src="/src/assets/background/gifsoulskut.gif" style="max-width: 150%">
+
+</p>
 
 - Se conecte com seu perfil do Github;
 - Listagem de seguidores e pessoas que você está seguindo(6 primeiros de cada);
