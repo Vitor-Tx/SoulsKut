@@ -6,10 +6,6 @@
 
 
 <br>
-  
-
-
-![Login](src/assets/background/gifsoulskut.gif)
 
 ![Capa do Projeto](https://i.imgur.com/QoPiqRr.png)
 
@@ -18,7 +14,7 @@
 
 <p align="center">
   
-<img src="/src/assets/background/gifsoulskut.gif" style="max-width: 100%">
+<img src="/src/assets/background/gifsoulskut.gif" style="max-width: 150%">
   
 
 
