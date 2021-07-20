@@ -1,6 +1,6 @@
 # Soulskut
 
-![Login](https://imgur.com/a/ccF7J7N)
+![Login](https://i.imgur.com/w0Om3FF.png)
 
 ![Capa do Projeto](https://i.imgur.com/QoPiqRr.png)
 
