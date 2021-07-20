@@ -9,7 +9,7 @@
   
 
 
-![Login](https://i.imgur.com/w0Om3FF.png)
+![Login](src/assets/background/gifsoulskut.gif)
 
 ![Capa do Projeto](https://i.imgur.com/QoPiqRr.png)
 
