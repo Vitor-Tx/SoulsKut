@@ -42,7 +42,7 @@ $ yarn start
 
 ---
 
-[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)](https://github.com/alura-challenges/alurakut-base/blob/master/LICENSE)
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)](https://github.com/Vitor-Tx/SoulsKut/blob/master/LICENSE)
 
 
 Feito por Vitor Teixeira. [Entre em contato!](https://www.linkedin.com/in/vitor-teixeira-eof/)
