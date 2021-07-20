@@ -2,15 +2,24 @@
 <img src="https://i.imgur.com/1SbDXF7.png" width="200px">
   
   
-![SoulsKut.gif](src/assets/background/gifsoulskut.gif)
+
 
 
 <br>
+  
 
 
 ![Login](https://i.imgur.com/w0Om3FF.png)
 
 ![Capa do Projeto](https://i.imgur.com/QoPiqRr.png)
+
+
+</p>
+
+<p align="center">
+  
+
+![SoulsKut.gif](src/assets/background/gifsoulskut.gif)
 
 
 </p>
