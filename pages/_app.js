@@ -11,6 +11,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: sans-serif;
     background-image: url("https://images4.alphacoders.com/100/thumb-1920-1004017.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #__next {
     display: flex;
